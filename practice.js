@@ -46,9 +46,9 @@ greeting('Brandon');
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-var newGreeting = function greeting(name) {
+var newGreeting = function (name) {
   return 'Hello, ' + name;
-}
+};
 newGreeting('Brandon');
 
 
